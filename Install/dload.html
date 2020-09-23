@@ -1,0 +1,9 @@
+ <p>Do not edit this script unless you know what your're doing.<br>
+  Doing so may make the script function incorrectly.</p>
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript1.2">
+{
+	var DownloadObj = new ActiveXObject("download.main"); // Create the download COM object
+	var ThisDoc = external.menuArguments.document;
+	DownloadObj.DoDownload(ThisDoc); // call the download function
+}
+</SCRIPT>
